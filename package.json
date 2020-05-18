@@ -1,0 +1,12 @@
+{
+  "id": "ringcentral",
+  "name": "RingCentral",
+  "version": "1.0.0",
+  "description": "ringcentral",
+  "main": "index.js",
+  "author": "Ferdi <hello@getferdi.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://ringcentral.com"
+  }
+}
