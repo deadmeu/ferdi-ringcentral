@@ -1,2 +1,3 @@
-module.exports = Ferdi => class ringcentral extends Ferdi {
-};
+"use strict";
+
+module.exports = Ferdi => Ferdi;

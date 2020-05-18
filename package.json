@@ -2,11 +2,12 @@
   "id": "ringcentral",
   "name": "RingCentral",
   "version": "1.0.0",
-  "description": "ringcentral",
+  "description": "RingCentral unified communications app",
   "main": "index.js",
   "author": "Ferdi <hello@getferdi.com>",
   "license": "MIT",
+  "repository": "https://github.com/deadmeu/ferdi-ringcentral",
   "config": {
-    "serviceURL": "https://ringcentral.com"
+    "serviceURL": "https://app.ringcentral.com/"
   }
 }
