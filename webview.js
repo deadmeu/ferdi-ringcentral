@@ -5,7 +5,7 @@ module.exports = Ferdi => {
 
     const messageCountElement = document.getElementById('Message-umi');
     if (messageCountElement) {
-      directCount = parseInt(messageCountElement.textContent) || 0;
+      directCount = Ferdi.safeParseInt(messageCountElement.textContent);
     }
 
     const unreadChats = document.querySelectorAll('.has-unread');
